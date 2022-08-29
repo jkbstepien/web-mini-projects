@@ -17,6 +17,7 @@ body {
     justify-content: center;
     height: 400px;
     background: url("../resources/bar.jpg");
+    /*TODO: Correct background-size to scale correctly.*/
     background-size: auto 400px;
     font-size: 32px;
     text-shadow: 0 0 6px black;
@@ -79,6 +80,7 @@ body {
     margin: 20px 0;
     font-size: 26px;
 }
+
 .recipe-instructions p {
     font-size: 80px;
 }
@@ -91,4 +93,16 @@ body {
 a {
     color: #F8E2C9;
     text-shadow: 0 0 4px black;
+}
+
+button {
+    color: red;
+    background-color: yellow;
+
+
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(245, 245, 245, 0.92);
+    box-shadow: 2px 2px  black;
 }

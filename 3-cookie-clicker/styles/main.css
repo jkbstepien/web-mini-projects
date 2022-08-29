@@ -4,7 +4,10 @@
 }
 
 body {
-    background: url("../images/cookie-background.jpg");
+    background: url("../images/cookie-background.jpg") no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     font-family: "Cookies", serif;
     font-weight: bold;
